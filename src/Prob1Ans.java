@@ -5,8 +5,11 @@ public class Prob1Ans {
      */
     public static void main(String[] args) {
         int i = 1;
+
         /* for 의 경우
            for(i = 1; i < 101; i++)
+
+           i = 1; 이라는 초기화는 while 에서 할 수 없다.
            while(i++ < 101)
          */
 
@@ -16,7 +19,7 @@ public class Prob1Ans {
                 System.out.println("i = " + i);
             }
         }
-        */
+         */
 
         /*
          for(i = 1; i++ < 101; ) {
@@ -24,7 +27,7 @@ public class Prob1Ans {
                 System.out.println("i = " + i);
              }
          }
-          */
+         */
 
          i = 1;
 
