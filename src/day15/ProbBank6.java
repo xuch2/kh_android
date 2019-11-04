@@ -49,8 +49,8 @@ class MyFibSeries {
 
     public void calcEachSum() {
         for(int i = 0; i < num; i++) {
-            if(series[i].mod(BigInteger.valueOf(2))
-                    == BigInteger.valueOf(1)) {
+            if(series[i].mod(BigInteger.valueOf(2)).compareTo(
+                    BigInteger.valueOf(1)) == 0) {
                 oddSum = oddSum.add(series[i]);
             } else {
                 evenSum = evenSum.add(series[i]);
